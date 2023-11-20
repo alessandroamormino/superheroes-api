@@ -19,9 +19,6 @@ import axios from 'axios';
 					this.store.error = error.response.status;
 				});
 			}
-		},
-		created(){
-			console.log(this.store.token);
 		}
 	}
 </script>
